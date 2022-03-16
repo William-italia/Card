@@ -1,0 +1,98 @@
+:root {
+  --SoftBlue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --DarkBlueMainBg: hsl(217, 54%, 11%);
+    --DarkBlueCardBg: hsl(216, 50%, 16%);
+    --DarkBlueLine: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --font1: 'Outfit', sans-serif;
+}
+
+body {
+  background: var(--DarkBlueMainBg);
+  color: var(--SoftBlue);
+  font-family: var(--font1);
+}
+
+.atribution {
+   position: absolute;
+   bottom: 15px; 
+   left: 50%; 
+  transform: translateX(-50%); 
+}
+
+.card {
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+  background: var(--DarkBlueCardBg);
+  /* border: 1px solid var(--DarkBlueLine); */
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card-image {
+  background-image: url('https://img1.akspic.ru/previews/8/1/3/6/6/166318/166318-hrustalnyj_kub-kub-kristall-sinij-pryamougolnik-500x.jpg');
+  height: 350px;
+  width: auto;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 8px;
+}
+
+.card h3 {
+  color: var(--White);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card-excerpt {
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.card .card-meta {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px solid ;
+}
+
+.card .card-meta img {
+  position: relative;
+  bottom: -2px;
+  margin-right: 8px;
+}
+.card ul li {
+  display: inline-block;
+
+}
+
+.color-et {
+  color: var(--Cyan);
+}
+
+.card_author {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_author a {
+  color: var(#fff);
+  text-decoration: none;
+}
+
+.card_author img{
+  width: 100%;
+  max-width: 40px;
+  margin-right: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
