@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 62.5%;
+  background: rgb(248, 219, 238);
+  color: rgb(0, 0, 0);
+}
+
+p {
+  margin: 13px 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(251, 34, 71);
+}
+
+
+.card {
+  background: hsl(199, 100%, 82%);
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+  padding: 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  margin-top: 170px;
+}
+
+.card .card-img {
+  background: url(../img/img-amor.jpeg) no-repeat center center/cover;
+  height: 320px;
+  width: 100%;
+  border-radius: 1rem;
+  border: 0.1rem solid black;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.card .card-content h1 {
+  font-size: 1.3rem;
+  padding-top: 1rem;
+}
+
+.card .card-content p {
+  font-size: 0.7rem;
+line-height: 1.2rem;
+font-weight: 500;
+
+}
+
+.card-info {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px dotted rgb(19, 8, 8);
+}
+
+.img-perfil {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-perfil img {
+  width: 100%;
+  max-width: 40px;
+  margin-right: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.img-perfil a {
+  margin-left: 5px;
+}
+
+.card-info span, 
+.card-info img {
+  position: relative;
+  bottom: 1px;
+  margin-right: 5px;
+}
+
+
+.footer {
+  text-align: center;
+  padding-top: 1.5rem;
+}
