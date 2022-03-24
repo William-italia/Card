@@ -44,10 +44,9 @@ color: var(--link-color1);
 }
 
 .main {
-
   float: left;
   margin: 0rem 3rem 0rem 4.7rem;
-  padding-bottom: 170px;
+  /* padding-bottom: 170px; */
 }
 
 .card {
